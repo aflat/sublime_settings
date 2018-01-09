@@ -126,6 +126,19 @@
       </dict>
     </dict>
     <dict>
+    	<key>name</key>
+    	<string>docstring</string>
+    	<key>scope</key>
+    	<string>string.quoted.double.block, string.docstring, comment.block.documentation, string.quoted.single.block</string>
+    	<key>settings</key>
+    	<dict>
+        	<key>fontStyle</key>
+        	<string>italic</string>
+        	<key>foreground</key>
+        	<string>#e57544</string>
+    	</dict>
+    </dict>
+    <dict>
       <key>name</key>
       <string>Comment</string>
       <key>scope</key>
