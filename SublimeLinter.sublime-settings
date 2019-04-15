@@ -3,20 +3,11 @@
 	
         "debug": true, 
         "delay": 0.25, 
-        "gutter_theme": "Packages/Boxy Theme/extras/SublimeLinter/Boxy.gutter-theme", 
         "lint_mode": "background", 
         "linters": {
             "flake8": {
                 "disable": false, 
-                "args": [ "--ignore W191",
-                            "--ignore E128",
-                            "--ignore E2",
-                            "--ignore E3",
-                            "--ignore W293",
-                            "--ignore E124",
-                            "--ignore W291",
-                            "--ignore E501",
-                            "--ignore E402",
+                "args": [  
                 ], 
                 "builtins": "", 
                 "excludes": [],
@@ -37,7 +28,12 @@
                 "max-line-length": null, 
                 "select": ""
             }, 
-            
+            "yamllint": {
+                "selector": "source.yaml, source.ansible, source.sls",
+                "executable": "/usr/local/bin/yamllint",
+                "args": [],
+
+            },
             "pylint": {
                 "disable": true, 
                 "args": [], 
@@ -94,5 +90,6 @@
             "yaml (procfile)": "yaml", 
             "yaml (stylelint)": "yaml", 
             "yaml (yarn)": "yaml"
-        }
+        },
+    "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
 }
