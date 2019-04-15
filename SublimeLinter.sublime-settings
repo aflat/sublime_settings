@@ -1,0 +1,98 @@
+{
+
+	
+        "debug": true, 
+        "delay": 0.25, 
+        "gutter_theme": "Packages/Boxy Theme/extras/SublimeLinter/Boxy.gutter-theme", 
+        "lint_mode": "background", 
+        "linters": {
+            "flake8": {
+                "disable": false, 
+                "args": [ "--ignore W191",
+                            "--ignore E128",
+                            "--ignore E2",
+                            "--ignore E3",
+                            "--ignore W293",
+                            "--ignore E124",
+                            "--ignore W291",
+                            "--ignore E501",
+                            "--ignore E402",
+                ], 
+                "builtins": "", 
+                "excludes": [],
+                "executable": "", 
+                "ignore": [], 
+                //"ignore": "W191",
+                "jobs": "1", 
+                "max-complexity": -1, 
+                "max-line-length": null, 
+                "select": "", 
+                "show-code": true
+            }, 
+            "pep8": {
+                "disable": true, 
+                "args": [], 
+                "excludes": [], 
+                "ignore": "W191", 
+                "max-line-length": null, 
+                "select": ""
+            }, 
+            
+            "pylint": {
+                "disable": true, 
+                "args": [], 
+                "disable": true, 
+                "enable": "", 
+                "excludes": ["W0311,C0301"], 
+                "paths": [], 
+                "rcfile": "", 
+                "show-codes": false
+            }
+        }, 
+        "no_column_highlights_line": false, 
+        "paths": {
+            "linux": [], 
+            "osx": [], 
+            "windows": []
+        }, 
+        
+        "show_marks_in_minimap": true, 
+        "syntax_map": {
+            "coffeescript (gulpfile)": "coffeescript", 
+            "html (django)": "html", 
+            "html (rails)": "html", 
+            "html 5": "html", 
+            "javascript (babel)": "javascript", 
+            "javascript (eslint)": "javascript", 
+            "javascript (gruntfile)": "javascript", 
+            "javascript (gulpfile)": "javascript", 
+            "javascript (postcss)": "javascript", 
+            "javascript (puglint)": "javascript", 
+            "javascript (stylelint)": "javascript", 
+            "javascript (webpack)": "javascript", 
+            "json (babel)": "json", 
+            "json (bower)": "json", 
+            "json (composer)": "json", 
+            "json (eslint)": "json", 
+            "json (npm)": "json", 
+            "json (postcss)": "json", 
+            "json (puglint)": "json", 
+            "json (settings)": "json", 
+            "json (stylelint)": "json", 
+            "json (sublime)": "json", 
+            "json (tern js)": "json", 
+            "magicpython": "python", 
+            "php": "html", 
+            "python django": "python", 
+            "pythonimproved": "python", 
+            "xml (config)": "xml", 
+            "xml (svg)": "xml", 
+            "yaml (circleci)": "yaml", 
+            "yaml (docker)": "yaml", 
+            "yaml (eslint)": "yaml", 
+            "yaml (lock)": "yaml", 
+            "yaml (procfile)": "yaml", 
+            "yaml (stylelint)": "yaml", 
+            "yaml (yarn)": "yaml"
+        }
+}
