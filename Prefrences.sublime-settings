@@ -1,18 +1,22 @@
 {
 	"always_show_minimap_viewport": true,
 	"color_scheme": "Packages/Themes/EditPlus.tmTheme",
+	"draw_white_space": "all",
 	"fade_fold_buttons": false,
 	"font_face": "Hack",
 	"font_size": 12,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"zzz A File Icon zzz"
 	],
 	"mdpopups.use_sublime_highlighter": true,
 	"remember_open_files": true,
-	"show_definitions": true,
+	"show_definitions": false,
+	"show_encoding": true,
 	"show_full_path": true,
-	"theme": "Material Firewatch.sublime-theme",
+	"show_line_endings": true,
+	"theme": "Reverse Gravity.sublime-theme",
 	"theme_accent_sky": true,
 	"theme_button_rounded": true,
 	"theme_find_panel_close_hidden": false,
@@ -31,5 +35,6 @@
 	"theme_statusbar_size_md": true,
 	"theme_tab_rounded": true,
 	"theme_tab_selected_prelined": true,
+	"translate_tabs_to_spaces": false,
 	"update_check": false
 }
