@@ -7,7 +7,7 @@
         "linters": {
             "flake8": {
                 "disable": false, 
-                "args": [  
+                "args": [ "--ignore=W191,E402,E501,E117,E201,E202,E128,E124,E126,W391" 
                 ], 
                 "builtins": "", 
                 "excludes": [],
@@ -92,4 +92,16 @@
             "yaml (yarn)": "yaml"
         },
     "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+    "styles": [
+       
+        {
+            "mark_style": "squiggly_underline",
+            "priority": 1,
+            "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter invalid",
+            "icon": "circle",
+            "types": [
+                "error"
+            ]
+        }
+    ],
 }
